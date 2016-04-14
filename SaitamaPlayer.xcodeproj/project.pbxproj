@@ -12,6 +12,8 @@
 		A997B57C1CBF16E3001B392C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A997B57A1CBF16E3001B392C /* Main.storyboard */; };
 		A997B57E1CBF16E3001B392C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A997B57D1CBF16E3001B392C /* Assets.xcassets */; };
 		A997B5811CBF16E3001B392C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A997B57F1CBF16E3001B392C /* LaunchScreen.storyboard */; };
+		A997B58A1CBF1C12001B392C /* cover-one-punch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A997B5881CBF1C12001B392C /* cover-one-punch.jpg */; };
+		A997B58B1CBF1C12001B392C /* OnePunchManOP.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A997B5891CBF1C12001B392C /* OnePunchManOP.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A997B57D1CBF16E3001B392C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A997B5801CBF16E3001B392C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A997B5821CBF16E3001B392C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A997B5881CBF1C12001B392C /* cover-one-punch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cover-one-punch.jpg"; sourceTree = "<group>"; };
+		A997B5891CBF1C12001B392C /* OnePunchManOP.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = OnePunchManOP.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				A997B5761CBF16E3001B392C /* AppDelegate.swift */,
+				A997B58C1CBF1C19001B392C /* Media */,
 				A997B5781CBF16E3001B392C /* ViewController.swift */,
 				A997B57A1CBF16E3001B392C /* Main.storyboard */,
 				A997B57D1CBF16E3001B392C /* Assets.xcassets */,
@@ -62,6 +67,15 @@
 				A997B5821CBF16E3001B392C /* Info.plist */,
 			);
 			path = SaitamaPlayer;
+			sourceTree = "<group>";
+		};
+		A997B58C1CBF1C19001B392C /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				A997B5881CBF1C12001B392C /* cover-one-punch.jpg */,
+				A997B5891CBF1C12001B392C /* OnePunchManOP.mp3 */,
+			);
+			name = Media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +139,9 @@
 			files = (
 				A997B5811CBF16E3001B392C /* LaunchScreen.storyboard in Resources */,
 				A997B57E1CBF16E3001B392C /* Assets.xcassets in Resources */,
+				A997B58B1CBF1C12001B392C /* OnePunchManOP.mp3 in Resources */,
 				A997B57C1CBF16E3001B392C /* Main.storyboard in Resources */,
+				A997B58A1CBF1C12001B392C /* cover-one-punch.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
